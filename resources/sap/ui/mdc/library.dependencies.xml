@@ -1,0 +1,1922 @@
+<?xml version="1.0" ?>
+<library  version="2.0" name="sap.ui.mdc">
+  <module name="sap/ui/mdc/Field.js" size="6669" compressedSize="3617">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/mdc/ResourceModel.js"/>
+      <module name="sap/ui/mdc/XMLComposite.js"/>
+      <module name="sap/ui/mdc/internal/common/Helper.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/FilterBar.js" size="22241" compressedSize="11391">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/m/MessageToast.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/base/ManagedObject.js"/>
+      <module name="sap/ui/mdc/FilterField.js"/>
+      <module name="sap/ui/mdc/ResourceModel.js"/>
+      <module name="sap/ui/mdc/XMLComposite.js"/>
+      <module name="sap/ui/mdc/base/ConditionModel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nFilterItem.js"/>
+      <module name="sap/ui/mdc/experimental/P13nFilterPanel.js"/>
+      <module name="sap/ui/mdc/internal/common/Helper.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/FilterField.js" size="13987" compressedSize="6995">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/mdc/ResourceModel.js"/>
+      <module name="sap/ui/mdc/ValueHelpDialog.js"/>
+      <module name="sap/ui/mdc/XMLComposite.js"/>
+      <module name="sap/ui/mdc/base/ODataSuggestProvider.js"/>
+      <module name="sap/ui/mdc/base/OperatorSuggestProvider.js"/>
+      <module name="sap/ui/mdc/internal/common/Helper.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/FlpActionHandler.js" size="15780" compressedSize="6689">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/ResponsivePopover.js"/>
+      <module name="sap/ui/core/InvisibleText.js"/>
+      <module name="sap/ui/mdc/base/FieldInfoBase.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/Factory.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/Item.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/Panel.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/Util.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/ResourceModel.js" size="856" compressedSize="405">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/model/resource/ResourceModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/Table.js" size="14249" compressedSize="7718">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/m/ListMode.js"/>
+      <module name="sap/ui/mdc/Field.js"/>
+      <module name="sap/ui/mdc/ResourceModel.js"/>
+      <module name="sap/ui/mdc/XMLComposite.js"/>
+      <module name="sap/ui/mdc/internal/field/Field.controller.js"/>
+      <module name="sap/ui/mdc/internal/table/gridtable/GridTable.controller.js"/>
+      <module name="sap/ui/mdc/internal/table/responsivetable/ResponsiveTable.controller.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/ValueHelpDialog.js" size="16974" compressedSize="6798">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/m/Bar.js"/>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/ui/mdc/ResourceModel.js"/>
+      <module name="sap/ui/mdc/base/ConditionModel.js"/>
+      <module name="sap/ui/mdc/base/DefineConditionPanel.js"/>
+      <module name="sap/ui/mdc/base/ValueHelpPanel.js"/>
+      <module name="sap/ui/mdc/experimental/NamedBindingModel.js"/>
+      <module name="sap/ui/mdc/internal/common/Helper.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/ValueHelpTemplate.view.xml" size="1446">
+    <requires>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/mdc/FilterBar.js"/>
+      <module name="sap/ui/mdc/Table.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/XMLComposite.js" size="578" compressedSize="413">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/mdc/ResourceModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/ConditionModel.js" size="26577" compressedSize="11487">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/mdc/base/FilterOperatorConfig.js"/>
+      <module name="sap/ui/model/Filter.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/CustomFieldHelp.js" size="2491" compressedSize="841">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/mdc/base/FieldHelpBase.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/CustomFieldInfo.js" size="2966" compressedSize="1467">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/base/ManagedObjectObserver.js"/>
+      <module name="sap/ui/core/Control.js"/>
+      <module name="sap/ui/core/InvisibleText.js"/>
+      <module name="sap/ui/mdc/base/FieldInfoBase.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/DefineConditionPanel.control.xml" size="1781">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/ScrollContainer.js"/>
+      <module name="sap/m/Select.js"/>
+      <module name="sap/ui/core/ListItem.js"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/layout/Grid.js"/>
+      <module name="sap/ui/layout/GridData.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/DefineConditionPanel.js" size="7225" compressedSize="3536">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/mdc/base/ConditionModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/Field.js" size="32593" compressedSize="15009">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/Input.js" conditional="true"/>
+      <module name="sap/m/Link.js" conditional="true"/>
+      <module name="sap/m/Text.js" conditional="true"/>
+      <module name="sap/m/TextArea.js" conditional="true"/>
+      <module name="sap/ui/base/ManagedObjectObserver.js"/>
+      <module name="sap/ui/core/Control.js"/>
+      <module name="sap/ui/mdc/library.js"/>
+      <module name="sap/ui/model/BindingMode.js"/>
+      <module name="sap/ui/model/base/ManagedObjectModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/FieldHelpBase.js" size="13590" compressedSize="3306">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/m/Popover.js" conditional="true"/>
+      <module name="sap/m/library.js" conditional="true"/>
+      <module name="sap/ui/core/Element.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/FieldInfoBase.js" size="5334" compressedSize="1976">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/m/ResponsivePopover.js"/>
+      <module name="sap/ui/core/Element.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/FieldRenderer.js" size="1122" compressedSize="743">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/core/IconPool.js"/>
+      <module name="sap/ui/core/Renderer.js"/>
+      <module name="sap/ui/core/ValueState.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/FilterField.js" size="37435" compressedSize="16866">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/MultiInput.js"/>
+      <module name="sap/m/Token.js"/>
+      <module name="sap/ui/base/ManagedObjectObserver.js"/>
+      <module name="sap/ui/core/Control.js"/>
+      <module name="sap/ui/mdc/base/FilterFieldRenderer.js"/>
+      <module name="sap/ui/mdc/base/type/DateRange.js"/>
+      <module name="sap/ui/mdc/library.js"/>
+      <module name="sap/ui/model/Filter.js"/>
+      <module name="sap/ui/model/Sorter.js"/>
+      <module name="sap/ui/model/base/ManagedObjectModel.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/FilterFieldRenderer.js" size="972" compressedSize="650">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/core/IconPool.js"/>
+      <module name="sap/ui/core/Renderer.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/FilterOperatorConfig.js" size="29529" compressedSize="11956" dynamicDependencies="true">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/base/Object.js"/>
+      <module name="sap/ui/mdc/base/type/Boolean.js"/>
+      <module name="sap/ui/mdc/base/type/String.js"/>
+      <module name="sap/ui/model/Filter.js"/>
+      <module name="sap/ui/model/FilterOperator.js"/>
+      <module name="sap/ui/model/odata/type/Boolean.js" conditional="true"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/ListFieldHelp.js" size="8640" compressedSize="4630">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/m/DisplayListItem.js" conditional="true"/>
+      <module name="sap/m/List.js" conditional="true"/>
+      <module name="sap/m/library.js" conditional="true"/>
+      <module name="sap/ui/base/ManagedObjectObserver.js"/>
+      <module name="sap/ui/mdc/base/FieldHelpBase.js"/>
+      <module name="sap/ui/mdc/library.js"/>
+      <module name="sap/ui/model/Filter.js" conditional="true"/>
+      <module name="sap/ui/model/base/ManagedObjectModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/ODataSuggestProvider.js" size="9806" compressedSize="5379">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/base/Object.js"/>
+      <module name="sap/ui/mdc/base/TableFieldHelp.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/OperatorSuggestProvider.js" size="6414" compressedSize="3261">
+    <description></description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/base/Object.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/TableFieldHelp.js" size="15373" compressedSize="6256">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/base/ManagedObjectObserver.js"/>
+      <module name="sap/ui/mdc/base/FieldHelpBase.js"/>
+      <module name="sap/ui/model/Filter.js"/>
+      <module name="sap/ui/model/FilterOperator.js"/>
+      <module name="sap/ui/model/base/ManagedObjectModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/ValueHelpPanel.control.xml" size="2463">
+    <requires>
+      <module name="sap/m/FlexItemData.js"/>
+      <module name="sap/m/IconTabBar.js"/>
+      <module name="sap/m/IconTabFilter.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/m/ToggleButton.js"/>
+      <module name="sap/m/Token.js"/>
+      <module name="sap/m/Tokenizer.js"/>
+      <module name="sap/m/Toolbar.js"/>
+      <module name="sap/m/ToolbarSpacer.js"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/fl/variants/VariantManagement.js"/>
+      <module name="sap/ui/layout/FixFlex.js"/>
+      <module name="sap/ui/layout/Splitter.js"/>
+      <module name="sap/ui/layout/SplitterLayoutData.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/ValueHelpPanel.js" size="8109" compressedSize="5037">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/linkinfo/Factory.js" size="1046" compressedSize="506">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/fl/Utils.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/linkinfo/FakeFlpConnector.js" size="3090" compressedSize="1417">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/Factory.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/linkinfo/Item.js" size="1530" compressedSize="425">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/core/Element.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/linkinfo/Panel.control.xml" size="1304">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/linkinfo/Panel.js" size="2672" compressedSize="881">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/linkinfo/Util.js" size="6421" compressedSize="2300">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/mdc/base/linkinfo/Factory.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/type/Boolean.js" size="870" compressedSize="631">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/model/FormatException.js"/>
+      <module name="sap/ui/model/ParseException.js"/>
+      <module name="sap/ui/model/type/Boolean.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/type/DateRange.js" size="1411" compressedSize="822">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/model/CompositeType.js"/>
+      <module name="sap/ui/model/FormatException.js"/>
+      <module name="sap/ui/model/ParseException.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/base/type/String.js" size="1193" compressedSize="858">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/model/FormatException.js"/>
+      <module name="sap/ui/model/ParseException.js"/>
+      <module name="sap/ui/model/type/String.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/designtime/FilterBar.designtime.js" size="6009" compressedSize="2928">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/ui/mdc/FilterField.js"/>
+      <module name="sap/ui/mdc/base/ConditionModel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nFilterItem.js"/>
+      <module name="sap/ui/mdc/experimental/P13nFilterPanel.js"/>
+      <module name="sap/ui/mdc/internal/common/Helper.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/designtime/Table.designtime.js" size="884" compressedSize="515">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/designtime/library-preload.designtime.js" size="3579">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/ui/mdc/FilterField.js"/>
+      <module name="sap/ui/mdc/base/ConditionModel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nFilterItem.js"/>
+      <module name="sap/ui/mdc/experimental/P13nFilterPanel.js"/>
+      <module name="sap/ui/mdc/internal/common/Helper.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+    <includes>
+      <module name="sap/ui/mdc/designtime/FilterBar.designtime.js"/>
+      <module name="sap/ui/mdc/designtime/Table.designtime.js"/>
+      <module name="sap/ui/mdc/designtime/library.designtime.js"/>
+    </includes>
+  </module>
+  <module name="sap/ui/mdc/designtime/library.designtime.js" size="264" compressedSize="164">
+    <description>Initialization of designtime Code and shared classes for the library sap.ui.mdc.</description>
+    <requires>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/Action.js" size="945" compressedSize="634">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/NamedBindingModel.js" size="3986" compressedSize="1269">
+    <description>Provides class sap.ui.mdc.experimental.NamedBindingModel</description>
+    <requires>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nColumnItem.js" size="1265" compressedSize="376">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/mdc/experimental/P13nItem.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nColumnPanel.control.xml" size="3817">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/OverflowToolbar.js"/>
+      <module name="sap/m/OverflowToolbarButton.js"/>
+      <module name="sap/m/OverflowToolbarLayoutData.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/m/ToolbarSpacer.js"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nColumnPanel.js" size="12478" compressedSize="6963">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/ui/mdc/experimental/P13nInternalModel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nPanel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nFilterItem.js" size="1471" compressedSize="439">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/mdc/experimental/P13nItem.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nFilterPanel.control.xml" size="3992">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/OverflowToolbar.js"/>
+      <module name="sap/m/OverflowToolbarButton.js"/>
+      <module name="sap/m/OverflowToolbarLayoutData.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/m/ToolbarSpacer.js"/>
+      <module name="sap/ui/core/AggregationProxy.js"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nFilterPanel.js" size="12458" compressedSize="6963">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/ui/mdc/experimental/P13nInternalModel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nPanel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nInternalModel.js" size="8762" compressedSize="3163">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/base/ManagedObject.js"/>
+      <module name="sap/ui/comp/personalization/Util.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nItem.js" size="1414" compressedSize="446">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/core/Element.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nPanel.js" size="4080" compressedSize="2232">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/mdc/experimental/P13nPanelFormatter.js"/>
+      <module name="sap/ui/model/ChangeReason.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nPanelFormatter.js" size="1169" compressedSize="774">
+    <requires>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nSelectionItem.js" size="1643" compressedSize="509">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/mdc/experimental/P13nItem.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nSelectionPanel.control.xml" size="1300">
+    <requires>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/OverflowToolbar.js"/>
+      <module name="sap/m/OverflowToolbarLayoutData.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/m/ToggleButton.js"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nSelectionPanel.js" size="1109" compressedSize="301">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/mdc/experimental/P13nPanel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nSortItem.js" size="1352" compressedSize="400">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/mdc/experimental/P13nItem.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nSortModel.js" size="14895" compressedSize="6668">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/base/ManagedObject.js"/>
+      <module name="sap/ui/comp/personalization/Util.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nSortPanel.control.xml" size="3514">
+    <requires>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/OverflowToolbar.js"/>
+      <module name="sap/m/OverflowToolbarButton.js"/>
+      <module name="sap/m/OverflowToolbarLayoutData.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/m/Select.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/m/ToolbarSpacer.js"/>
+      <module name="sap/ui/core/Item.js"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nSortPanel.js" size="12247" compressedSize="6556">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/ui/mdc/experimental/P13nPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nSortQBGridPanel.control.xml" size="1791">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/ComboBox.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/Select.js"/>
+      <module name="sap/ui/core/Item.js"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/layout/Grid.js"/>
+      <module name="sap/ui/layout/GridData.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nSortQBGridPanel.js" size="6372" compressedSize="3114">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/ui/mdc/experimental/P13nPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortModel.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nSortQBPanel.control.xml" size="2119">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/ComboBox.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/Select.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/ui/core/Item.js"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nSortQBPanel.js" size="5279" compressedSize="2937">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/ui/mdc/experimental/P13nPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortModel.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nSortSimplePanel.control.xml" size="1522">
+    <requires>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/P13nSortSimplePanel.js" size="6099" compressedSize="3264">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/ui/mdc/experimental/P13nPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/BaseControlProvider.js" size="14186" compressedSize="4721">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/ui/base/BindingParser.js"/>
+      <module name="sap/ui/base/ManagedObject.js"/>
+      <module name="sap/ui/base/Object.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/FieldAdapter.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/ProviderHook.js" size="8909" compressedSize="4133" dynamicDependencies="true">
+    <requires>
+      <module name="sap/ui/base/ManagedObject.js"/>
+      <module name="sap/ui/core/XMLTemplateProcessor.js"/>
+      <module name="sap/ui/core/util/XMLPreprocessor.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/AdapterFactory.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/ControlRegistry.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/Utils.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/adapter/AdapterFactory.js" size="3674" compressedSize="2045">
+    <requires>
+      <module name="sap/ui/model/MetaModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/adapter/base/BaseAdapter.js" size="7126" compressedSize="3448">
+    <description>Abstract Model adapter  @experimental @abstract</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/base/Object.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/adapter/base/CollectionAdapter.js" size="1533" compressedSize="1155">
+    <description>Abstract Model adapter  @experimental @abstract</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/BaseAdapter.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/adapter/base/ColumnWrapper.js" size="816" compressedSize="551">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/base/Object.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/adapter/base/FieldAdapter.js" size="8524" compressedSize="3806">
+    <description>Abstract Model adapter  @experimental @abstract</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/BaseAdapter.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/adapter/base/ObjectAdapter.js" size="3059" compressedSize="2024">
+    <description>Abstract Model adapter  @experimental @abstract</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/BaseAdapter.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/adapter/odata/Annotations.js" size="2777" compressedSize="2525">
+    <requires>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/adapter/odata/_ODataAdapterUtils.js" size="9721" compressedSize="4900">
+    <requires>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/FieldAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/Annotations.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataBaseAdapter.js" size="5940" compressedSize="3368">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/BaseAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/Annotations.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/_ODataAdapterUtils.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataColumnWrapper.js" size="2075" compressedSize="1043">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/ColumnWrapper.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/Annotations.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataFieldAdapter.js" size="11149" compressedSize="6771">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/mdc/experimental/provider/adapter/AdapterFactory.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/FieldAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataBaseAdapter.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataObjectAdapter.js" size="5812" compressedSize="3218">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/ColumnWrapper.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/ObjectAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataBaseAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataFieldAdapter.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/adapter/odata/v4/ODataBaseAdapter.js" size="2024" compressedSize="1309">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/BaseAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/Annotations.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/_ODataAdapterUtils.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/adapter/odata/v4/ODataFieldAdapter.js" size="8879" compressedSize="5597">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/mdc/experimental/provider/adapter/AdapterFactory.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/FieldAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v4/ODataBaseAdapter.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/adapter/odata/v4/ODataObjectAdapter.js" size="9291" compressedSize="4842">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/mdc/experimental/provider/adapter/AdapterFactory.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/ObjectAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v4/ODataBaseAdapter.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/control/AbstractKnowlegdeBase.js" size="652" compressedSize="423">
+    <requires>
+      <module name="sap/ui/base/Object.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/control/ControlRegistry.js" size="4443" compressedSize="2273" dynamicDependencies="true">
+    <requires>
+      <module name="sap/ui/mdc/experimental/provider/BaseControlProvider.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/DefaultKnowledgeBase.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/Utils.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/control/DefaultKnowledgeBase.js" size="3841" compressedSize="2422">
+    <requires>
+      <module name="sap/ui/mdc/experimental/provider/BaseControlProvider.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/AbstractKnowlegdeBase.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/control/DefaultProvider.js" size="6571" compressedSize="4108">
+    <requires>
+      <module name="sap/ui/mdc/experimental/provider/BaseControlProvider.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/AbstractKnowlegdeBase.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/Utils.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/control/FlpActionHandler.js" size="1225" compressedSize="727">
+    <requires>
+      <module name="sap/ui/mdc/experimental/provider/BaseControlProvider.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/experimental/provider/control/Utils.js" size="799" compressedSize="431">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/core/Control.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/common/DraftInfoPopover.fragment.xml" size="2170">
+    <requires>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Popover.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/common/Helper.js" size="4751" compressedSize="2204">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/mdc/ResourceModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/field/ContactDetails.fragment.xml" size="3263">
+    <requires>
+      <module name="sap/m/QuickView.js"/>
+      <module name="sap/m/QuickViewGroup.js"/>
+      <module name="sap/m/QuickViewGroupElement.js"/>
+      <module name="sap/m/QuickViewPage.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/field/DataField.fragment.xml" size="5909">
+    <requires>
+      <module name="sap/m/HBox.js" conditional="true"/>
+      <module name="sap/m/Link.js" conditional="true"/>
+      <module name="sap/m/ObjectIdentifier.js" conditional="true"/>
+      <module name="sap/m/ObjectMarker.js" conditional="true"/>
+      <module name="sap/m/ObjectNumber.js" conditional="true"/>
+      <module name="sap/m/ObjectStatus.js" conditional="true"/>
+      <module name="sap/m/VBox.js" conditional="true"/>
+      <module name="sap/ui/core/CustomData.js" conditional="true"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/mdc/base/Field.js"/>
+      <module name="sap/ui/unified/Currency.js" conditional="true"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/field/DataFieldForAction.fragment.xml" size="433">
+    <requires>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/mdc/experimental/Action.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/field/DataFieldForAnnotation.fragment.xml" size="1903">
+    <requires>
+      <module name="sap/m/Link.js" conditional="true"/>
+      <module name="sap/m/ProgressIndicator.js" conditional="true"/>
+      <module name="sap/m/RatingIndicator.js" conditional="true"/>
+      <module name="sap/m/VBox.js" conditional="true"/>
+      <module name="sap/ui/core/CustomData.js" conditional="true"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/mdc/internal/field/ContactDetails.fragment.xml" conditional="true"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/field/Field.control.xml" size="547">
+    <requires>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/mdc/internal/field/Field.fragment.xml"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/field/Field.controller.js" size="3096" compressedSize="1838">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/ui/base/Object.js"/>
+      <module name="sap/ui/mdc/experimental/Action.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/field/Field.fragment.xml" size="2336">
+    <requires>
+      <module name="sap/m/Text.js" conditional="true"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/mdc/internal/field/DataField.fragment.xml" conditional="true"/>
+      <module name="sap/ui/mdc/internal/field/DataFieldForAction.fragment.xml" conditional="true"/>
+      <module name="sap/ui/mdc/internal/field/DataFieldForAnnotation.fragment.xml" conditional="true"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/filterbar/FilterBar.control.xml" size="3440">
+    <requires>
+      <module name="sap/m/Button.js" conditional="true"/>
+      <module name="sap/m/ComboBox.js" conditional="true"/>
+      <module name="sap/m/Label.js" conditional="true"/>
+      <module name="sap/m/SearchField.js" conditional="true"/>
+      <module name="sap/m/VBox.js" conditional="true"/>
+      <module name="sap/ui/core/CustomData.js" conditional="true"/>
+      <module name="sap/ui/core/Item.js" conditional="true"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/layout/AlignedFlowLayout.js"/>
+      <module name="sap/ui/mdc/FilterField.js" conditional="true"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/filterbar/FilterBar.flexibility.js" size="6779" compressedSize="2791">
+    <requires>
+      <module name="sap/ui/mdc/FilterField.js"/>
+      <module name="sap/ui/mdc/internal/common/Helper.js"/>
+      <module name="sap/ui/model/odata/v4/ODataModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/filterfield/FilterField.control.xml" size="2718">
+    <requires>
+      <module name="sap/m/Label.js" conditional="true"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/ui/core/CustomData.js"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/mdc/base/FilterField.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/filterfield/SuggestionList.view.xml" size="2378">
+    <requires>
+      <module name="sap/m/Column.js" conditional="true"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/Label.js" conditional="true"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/ui/core/Fragment.js" conditional="true"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/mdc/internal/field/Field.fragment.xml" conditional="true"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/table/Table.control.xml" size="1786">
+    <requires>
+      <module name="sap/m/MessageStrip.js" conditional="true"/>
+      <module name="sap/ui/core/Fragment.js" conditional="true"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/mdc/internal/table/gridtable/GridTable.fragment.xml" conditional="true"/>
+      <module name="sap/ui/mdc/internal/table/responsivetable/ResponsiveTable.fragment.xml" conditional="true"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/table/Table.controller.js" size="10003" compressedSize="4593">
+    <description>@private @name sap.ui.mdc.internal.table.Table.controller @author SAP SE @version 1.54.6 @since ?? @param {} @returns {sap.ui.mdc.internal.table.Table.controller} new Table controller</description>
+    <requires>
+      <module name="sap/ui/base/Object.js"/>
+      <module name="sap/ui/mdc/ResourceModel.js"/>
+      <module name="sap/ui/mdc/experimental/Action.js"/>
+      <module name="sap/ui/model/Sorter.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/table/Table.flexibility.js" size="9931" compressedSize="4259">
+    <requires>
+      <module name="sap/ui/mdc/base/ConditionModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/table/TableToolbar.fragment.xml" size="1699">
+    <requires>
+      <module name="sap/m/OverflowToolbar.js"/>
+      <module name="sap/m/OverflowToolbarButton.js"/>
+      <module name="sap/m/Title.js"/>
+      <module name="sap/m/ToolbarSpacer.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/mdc/experimental/Action.js" conditional="true"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/table/gridtable/AddGridTableColumnChange.fragment.xml" size="375">
+    <requires>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/mdc/internal/table/gridtable/GridTableColumn.fragment.xml"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/table/gridtable/GridTable.controller.js" size="3166" compressedSize="1533">
+    <description>@private @name sap.fe.controls._Table.GridTable.GridTable.controller @author SAP SE @version 1.54.6 @since ?? @param {} @returns {sap.fe.controls._Table.GridTable.GridTable.controller} new GridTable controller</description>
+    <requires>
+      <module name="sap/ui/mdc/ResourceModel.js"/>
+      <module name="sap/ui/mdc/internal/table/Table.controller.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/table/gridtable/GridTable.fragment.xml" size="1224">
+    <requires>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/mdc/internal/table/TableToolbar.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/gridtable/GridTableColumn.fragment.xml" conditional="true"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/table/gridtable/GridTableColumn.fragment.xml" size="1157">
+    <requires>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/ui/core/CustomData.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/mdc/internal/field/Field.fragment.xml"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/table/p13nsettings/P13nSettings.controller.js" size="4427" compressedSize="1806">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/core/mvc/Controller.js"/>
+      <module name="sap/ui/model/Sorter.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/table/p13nsettings/P13nSettings.view.xml" size="2911">
+    <requires>
+      <module name="sap/m/P13nDialog.js"/>
+      <module name="sap/m/P13nGroupItem.js" conditional="true"/>
+      <module name="sap/m/P13nGroupPanel.js" conditional="true"/>
+      <module name="sap/m/P13nItem.js" conditional="true"/>
+      <module name="sap/m/P13nSortItem.js" conditional="true"/>
+      <module name="sap/m/P13nSortPanel.js" conditional="true"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/mdc/internal/table/p13nsettings/P13nSettings.controller.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/table/responsivetable/AddColumnChange.fragment.xml" size="816">
+    <requires>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/mdc/internal/field/Field.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/responsivetable/ResponsiveTableColumn.fragment.xml"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/table/responsivetable/ResponsiveTable.controller.js" size="3238" compressedSize="1494">
+    <description>@private @name sap.fe.controls._Table.ResponsiveTable.ResponsiveTable.controller @author SAP SE @version 1.54.6 @since ?? @param {} @returns {sap.fe.controls._Table.ResponsiveTable.ResponsiveTable.controller} new ResponsiveTable controller</description>
+    <requires>
+      <module name="sap/ui/mdc/ResourceModel.js"/>
+      <module name="sap/ui/mdc/internal/table/Table.controller.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/table/responsivetable/ResponsiveTable.fragment.xml" size="2266">
+    <requires>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/mdc/internal/field/Field.fragment.xml" conditional="true"/>
+      <module name="sap/ui/mdc/internal/table/TableToolbar.fragment.xml" conditional="true"/>
+      <module name="sap/ui/mdc/internal/table/responsivetable/ResponsiveTableColumn.fragment.xml" conditional="true"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/table/responsivetable/ResponsiveTableColumn.fragment.xml" size="1070">
+    <requires>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/ui/core/CustomData.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/table/viewsettings/ViewSettings.controller.js" size="4552" compressedSize="1935">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)&#xA;&#xA;(c) Copyright 2009-2018 SAP SE. All rights reserved</description>
+    <requires>
+      <module name="sap/ui/core/mvc/Controller.js"/>
+      <module name="sap/ui/mdc/ResourceModel.js"/>
+      <module name="sap/ui/model/Sorter.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/internal/table/viewsettings/ViewSettings.view.xml" size="2394">
+    <requires>
+      <module name="sap/m/ViewSettingsDialog.js"/>
+      <module name="sap/m/ViewSettingsItem.js" conditional="true"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/mdc/internal/table/viewsettings/ViewSettings.controller.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/library-h2-preload.js" size="23205" dynamicDependencies="true">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/Bar.js"/>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/ComboBox.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/m/DisplayListItem.js" conditional="true"/>
+      <module name="sap/m/FlexItemData.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/IconTabBar.js"/>
+      <module name="sap/m/IconTabFilter.js"/>
+      <module name="sap/m/Input.js" conditional="true"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/List.js" conditional="true"/>
+      <module name="sap/m/ListMode.js"/>
+      <module name="sap/m/MessageStrip.js" conditional="true"/>
+      <module name="sap/m/MessageToast.js"/>
+      <module name="sap/m/MultiInput.js"/>
+      <module name="sap/m/ObjectIdentifier.js" conditional="true"/>
+      <module name="sap/m/ObjectMarker.js" conditional="true"/>
+      <module name="sap/m/ObjectNumber.js" conditional="true"/>
+      <module name="sap/m/ObjectStatus.js" conditional="true"/>
+      <module name="sap/m/OverflowToolbar.js"/>
+      <module name="sap/m/OverflowToolbarButton.js"/>
+      <module name="sap/m/OverflowToolbarLayoutData.js"/>
+      <module name="sap/m/P13nDialog.js"/>
+      <module name="sap/m/P13nGroupItem.js" conditional="true"/>
+      <module name="sap/m/P13nGroupPanel.js" conditional="true"/>
+      <module name="sap/m/P13nItem.js" conditional="true"/>
+      <module name="sap/m/P13nSortItem.js" conditional="true"/>
+      <module name="sap/m/P13nSortPanel.js" conditional="true"/>
+      <module name="sap/m/Popover.js"/>
+      <module name="sap/m/ProgressIndicator.js" conditional="true"/>
+      <module name="sap/m/QuickView.js"/>
+      <module name="sap/m/QuickViewGroup.js"/>
+      <module name="sap/m/QuickViewGroupElement.js"/>
+      <module name="sap/m/QuickViewPage.js"/>
+      <module name="sap/m/RatingIndicator.js" conditional="true"/>
+      <module name="sap/m/ResponsivePopover.js"/>
+      <module name="sap/m/ScrollContainer.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/m/Select.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/m/TextArea.js" conditional="true"/>
+      <module name="sap/m/Title.js"/>
+      <module name="sap/m/ToggleButton.js"/>
+      <module name="sap/m/Token.js"/>
+      <module name="sap/m/Tokenizer.js"/>
+      <module name="sap/m/Toolbar.js"/>
+      <module name="sap/m/ToolbarSpacer.js"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/m/ViewSettingsDialog.js"/>
+      <module name="sap/m/ViewSettingsItem.js" conditional="true"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/base/BindingParser.js"/>
+      <module name="sap/ui/base/ManagedObject.js"/>
+      <module name="sap/ui/base/ManagedObjectObserver.js"/>
+      <module name="sap/ui/base/Object.js"/>
+      <module name="sap/ui/comp/personalization/Util.js"/>
+      <module name="sap/ui/core/AggregationProxy.js"/>
+      <module name="sap/ui/core/Control.js"/>
+      <module name="sap/ui/core/CustomData.js"/>
+      <module name="sap/ui/core/Element.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/IconPool.js"/>
+      <module name="sap/ui/core/InvisibleText.js"/>
+      <module name="sap/ui/core/Item.js"/>
+      <module name="sap/ui/core/ListItem.js"/>
+      <module name="sap/ui/core/Renderer.js"/>
+      <module name="sap/ui/core/ValueState.js"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/core/XMLTemplateProcessor.js"/>
+      <module name="sap/ui/core/mvc/Controller.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/core/util/XMLPreprocessor.js"/>
+      <module name="sap/ui/fl/Utils.js"/>
+      <module name="sap/ui/fl/variants/VariantManagement.js"/>
+      <module name="sap/ui/layout/AlignedFlowLayout.js"/>
+      <module name="sap/ui/layout/FixFlex.js"/>
+      <module name="sap/ui/layout/Grid.js"/>
+      <module name="sap/ui/layout/GridData.js"/>
+      <module name="sap/ui/layout/Splitter.js"/>
+      <module name="sap/ui/layout/SplitterLayoutData.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+      <module name="sap/ui/model/BindingMode.js"/>
+      <module name="sap/ui/model/ChangeReason.js"/>
+      <module name="sap/ui/model/CompositeType.js"/>
+      <module name="sap/ui/model/Filter.js"/>
+      <module name="sap/ui/model/FilterOperator.js"/>
+      <module name="sap/ui/model/FormatException.js"/>
+      <module name="sap/ui/model/MetaModel.js"/>
+      <module name="sap/ui/model/ParseException.js"/>
+      <module name="sap/ui/model/Sorter.js"/>
+      <module name="sap/ui/model/base/ManagedObjectModel.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="sap/ui/model/odata/type/Boolean.js" conditional="true"/>
+      <module name="sap/ui/model/odata/v4/ODataModel.js"/>
+      <module name="sap/ui/model/resource/ResourceModel.js"/>
+      <module name="sap/ui/model/type/Boolean.js"/>
+      <module name="sap/ui/model/type/String.js"/>
+      <module name="sap/ui/unified/Currency.js" conditional="true"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+    <includes>
+      <module name="sap/ui/mdc/library.js"/>
+      <module name="sap/ui/mdc/manifest.json"/>
+      <module name="sap/ui/mdc/Field.js"/>
+      <module name="sap/ui/mdc/FilterBar.js"/>
+      <module name="sap/ui/mdc/FilterField.js"/>
+      <module name="sap/ui/mdc/FlpActionHandler.js"/>
+      <module name="sap/ui/mdc/ResourceModel.js"/>
+      <module name="sap/ui/mdc/Table.js"/>
+      <module name="sap/ui/mdc/ValueHelpDialog.js"/>
+      <module name="sap/ui/mdc/ValueHelpTemplate.view.xml"/>
+      <module name="sap/ui/mdc/XMLComposite.js"/>
+      <module name="sap/ui/mdc/base/ConditionModel.js"/>
+      <module name="sap/ui/mdc/base/CustomFieldHelp.js"/>
+      <module name="sap/ui/mdc/base/CustomFieldInfo.js"/>
+      <module name="sap/ui/mdc/base/DefineConditionPanel.control.xml"/>
+      <module name="sap/ui/mdc/base/DefineConditionPanel.js"/>
+      <module name="sap/ui/mdc/base/Field.js"/>
+      <module name="sap/ui/mdc/base/FieldHelpBase.js"/>
+      <module name="sap/ui/mdc/base/FieldInfoBase.js"/>
+      <module name="sap/ui/mdc/base/FieldRenderer.js"/>
+      <module name="sap/ui/mdc/base/FilterField.js"/>
+      <module name="sap/ui/mdc/base/FilterFieldRenderer.js"/>
+      <module name="sap/ui/mdc/base/FilterOperatorConfig.js"/>
+      <module name="sap/ui/mdc/base/ListFieldHelp.js"/>
+      <module name="sap/ui/mdc/base/ODataSuggestProvider.js"/>
+      <module name="sap/ui/mdc/base/OperatorSuggestProvider.js"/>
+      <module name="sap/ui/mdc/base/TableFieldHelp.js"/>
+      <module name="sap/ui/mdc/base/ValueHelpPanel.control.xml"/>
+      <module name="sap/ui/mdc/base/ValueHelpPanel.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/Factory.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/FakeFlpConnector.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/Item.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/Panel.control.xml"/>
+      <module name="sap/ui/mdc/base/linkinfo/Panel.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/Util.js"/>
+      <module name="sap/ui/mdc/base/type/Boolean.js"/>
+      <module name="sap/ui/mdc/base/type/DateRange.js"/>
+      <module name="sap/ui/mdc/base/type/String.js"/>
+      <module name="sap/ui/mdc/designtime/FilterBar.designtime.js"/>
+      <module name="sap/ui/mdc/designtime/Table.designtime.js"/>
+      <module name="sap/ui/mdc/designtime/library.designtime.js"/>
+      <module name="sap/ui/mdc/experimental/Action.js"/>
+      <module name="sap/ui/mdc/experimental/NamedBindingModel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nColumnItem.js"/>
+      <module name="sap/ui/mdc/experimental/P13nColumnPanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nColumnPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nFilterItem.js"/>
+      <module name="sap/ui/mdc/experimental/P13nFilterPanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nFilterPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nInternalModel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nItem.js"/>
+      <module name="sap/ui/mdc/experimental/P13nPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nPanelFormatter.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSelectionItem.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSelectionPanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nSelectionPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortItem.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortModel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortPanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nSortPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortQBGridPanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nSortQBGridPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortQBPanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nSortQBPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortSimplePanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nSortSimplePanel.js"/>
+      <module name="sap/ui/mdc/experimental/provider/BaseControlProvider.js"/>
+      <module name="sap/ui/mdc/experimental/provider/ProviderHook.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/AdapterFactory.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/BaseAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/CollectionAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/ColumnWrapper.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/FieldAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/ObjectAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/Annotations.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/_ODataAdapterUtils.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataBaseAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataColumnWrapper.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataFieldAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataObjectAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v4/ODataBaseAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v4/ODataFieldAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v4/ODataObjectAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/AbstractKnowlegdeBase.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/ControlRegistry.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/DefaultKnowledgeBase.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/DefaultProvider.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/FlpActionHandler.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/Utils.js"/>
+      <module name="sap/ui/mdc/internal/common/DraftInfoPopover.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/common/Helper.js"/>
+      <module name="sap/ui/mdc/internal/field/ContactDetails.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/field/DataField.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/field/DataFieldForAction.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/field/DataFieldForAnnotation.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/field/Field.control.xml"/>
+      <module name="sap/ui/mdc/internal/field/Field.controller.js"/>
+      <module name="sap/ui/mdc/internal/field/Field.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/filterbar/FilterBar.control.xml"/>
+      <module name="sap/ui/mdc/internal/filterbar/FilterBar.flexibility.js"/>
+      <module name="sap/ui/mdc/internal/filterfield/FilterField.control.xml"/>
+      <module name="sap/ui/mdc/internal/filterfield/SuggestionList.view.xml"/>
+      <module name="sap/ui/mdc/internal/table/Table.control.xml"/>
+      <module name="sap/ui/mdc/internal/table/Table.controller.js"/>
+      <module name="sap/ui/mdc/internal/table/Table.flexibility.js"/>
+      <module name="sap/ui/mdc/internal/table/TableToolbar.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/gridtable/AddGridTableColumnChange.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/gridtable/GridTable.controller.js"/>
+      <module name="sap/ui/mdc/internal/table/gridtable/GridTable.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/gridtable/GridTableColumn.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/p13nsettings/P13nSettings.controller.js"/>
+      <module name="sap/ui/mdc/internal/table/p13nsettings/P13nSettings.view.xml"/>
+      <module name="sap/ui/mdc/internal/table/responsivetable/AddColumnChange.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/responsivetable/ResponsiveTable.controller.js"/>
+      <module name="sap/ui/mdc/internal/table/responsivetable/ResponsiveTable.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/responsivetable/ResponsiveTableColumn.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/viewsettings/ViewSettings.controller.js"/>
+      <module name="sap/ui/mdc/internal/table/viewsettings/ViewSettings.view.xml"/>
+    </includes>
+  </module>
+  <module name="sap/ui/mdc/library-preload.js" size="356031" dynamicDependencies="true">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/Bar.js"/>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/ComboBox.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/m/DisplayListItem.js" conditional="true"/>
+      <module name="sap/m/FlexItemData.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/IconTabBar.js"/>
+      <module name="sap/m/IconTabFilter.js"/>
+      <module name="sap/m/Input.js" conditional="true"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/List.js" conditional="true"/>
+      <module name="sap/m/ListMode.js"/>
+      <module name="sap/m/MessageStrip.js" conditional="true"/>
+      <module name="sap/m/MessageToast.js"/>
+      <module name="sap/m/MultiInput.js"/>
+      <module name="sap/m/ObjectIdentifier.js" conditional="true"/>
+      <module name="sap/m/ObjectMarker.js" conditional="true"/>
+      <module name="sap/m/ObjectNumber.js" conditional="true"/>
+      <module name="sap/m/ObjectStatus.js" conditional="true"/>
+      <module name="sap/m/OverflowToolbar.js"/>
+      <module name="sap/m/OverflowToolbarButton.js"/>
+      <module name="sap/m/OverflowToolbarLayoutData.js"/>
+      <module name="sap/m/P13nDialog.js"/>
+      <module name="sap/m/P13nGroupItem.js" conditional="true"/>
+      <module name="sap/m/P13nGroupPanel.js" conditional="true"/>
+      <module name="sap/m/P13nItem.js" conditional="true"/>
+      <module name="sap/m/P13nSortItem.js" conditional="true"/>
+      <module name="sap/m/P13nSortPanel.js" conditional="true"/>
+      <module name="sap/m/Popover.js"/>
+      <module name="sap/m/ProgressIndicator.js" conditional="true"/>
+      <module name="sap/m/QuickView.js"/>
+      <module name="sap/m/QuickViewGroup.js"/>
+      <module name="sap/m/QuickViewGroupElement.js"/>
+      <module name="sap/m/QuickViewPage.js"/>
+      <module name="sap/m/RatingIndicator.js" conditional="true"/>
+      <module name="sap/m/ResponsivePopover.js"/>
+      <module name="sap/m/ScrollContainer.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/m/Select.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/m/TextArea.js" conditional="true"/>
+      <module name="sap/m/Title.js"/>
+      <module name="sap/m/ToggleButton.js"/>
+      <module name="sap/m/Token.js"/>
+      <module name="sap/m/Tokenizer.js"/>
+      <module name="sap/m/Toolbar.js"/>
+      <module name="sap/m/ToolbarSpacer.js"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/m/ViewSettingsDialog.js"/>
+      <module name="sap/m/ViewSettingsItem.js" conditional="true"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/base/BindingParser.js"/>
+      <module name="sap/ui/base/ManagedObject.js"/>
+      <module name="sap/ui/base/ManagedObjectObserver.js"/>
+      <module name="sap/ui/base/Object.js"/>
+      <module name="sap/ui/comp/personalization/Util.js"/>
+      <module name="sap/ui/core/AggregationProxy.js"/>
+      <module name="sap/ui/core/Control.js"/>
+      <module name="sap/ui/core/CustomData.js"/>
+      <module name="sap/ui/core/Element.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/IconPool.js"/>
+      <module name="sap/ui/core/InvisibleText.js"/>
+      <module name="sap/ui/core/Item.js"/>
+      <module name="sap/ui/core/ListItem.js"/>
+      <module name="sap/ui/core/Renderer.js"/>
+      <module name="sap/ui/core/ValueState.js"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/core/XMLTemplateProcessor.js"/>
+      <module name="sap/ui/core/mvc/Controller.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/core/util/XMLPreprocessor.js"/>
+      <module name="sap/ui/fl/Utils.js"/>
+      <module name="sap/ui/fl/variants/VariantManagement.js"/>
+      <module name="sap/ui/layout/AlignedFlowLayout.js"/>
+      <module name="sap/ui/layout/FixFlex.js"/>
+      <module name="sap/ui/layout/Grid.js"/>
+      <module name="sap/ui/layout/GridData.js"/>
+      <module name="sap/ui/layout/Splitter.js"/>
+      <module name="sap/ui/layout/SplitterLayoutData.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+      <module name="sap/ui/model/BindingMode.js"/>
+      <module name="sap/ui/model/ChangeReason.js"/>
+      <module name="sap/ui/model/CompositeType.js"/>
+      <module name="sap/ui/model/Filter.js"/>
+      <module name="sap/ui/model/FilterOperator.js"/>
+      <module name="sap/ui/model/FormatException.js"/>
+      <module name="sap/ui/model/MetaModel.js"/>
+      <module name="sap/ui/model/ParseException.js"/>
+      <module name="sap/ui/model/Sorter.js"/>
+      <module name="sap/ui/model/base/ManagedObjectModel.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="sap/ui/model/odata/type/Boolean.js" conditional="true"/>
+      <module name="sap/ui/model/odata/v4/ODataModel.js"/>
+      <module name="sap/ui/model/resource/ResourceModel.js"/>
+      <module name="sap/ui/model/type/Boolean.js"/>
+      <module name="sap/ui/model/type/String.js"/>
+      <module name="sap/ui/unified/Currency.js" conditional="true"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+    <includes>
+      <module name="sap/ui/mdc/Field.js"/>
+      <module name="sap/ui/mdc/FilterBar.js"/>
+      <module name="sap/ui/mdc/FilterField.js"/>
+      <module name="sap/ui/mdc/FlpActionHandler.js"/>
+      <module name="sap/ui/mdc/ResourceModel.js"/>
+      <module name="sap/ui/mdc/Table.js"/>
+      <module name="sap/ui/mdc/ValueHelpDialog.js"/>
+      <module name="sap/ui/mdc/ValueHelpTemplate.view.xml"/>
+      <module name="sap/ui/mdc/XMLComposite.js"/>
+      <module name="sap/ui/mdc/base/ConditionModel.js"/>
+      <module name="sap/ui/mdc/base/CustomFieldHelp.js"/>
+      <module name="sap/ui/mdc/base/CustomFieldInfo.js"/>
+      <module name="sap/ui/mdc/base/DefineConditionPanel.control.xml"/>
+      <module name="sap/ui/mdc/base/DefineConditionPanel.js"/>
+      <module name="sap/ui/mdc/base/Field.js"/>
+      <module name="sap/ui/mdc/base/FieldHelpBase.js"/>
+      <module name="sap/ui/mdc/base/FieldInfoBase.js"/>
+      <module name="sap/ui/mdc/base/FieldRenderer.js"/>
+      <module name="sap/ui/mdc/base/FilterField.js"/>
+      <module name="sap/ui/mdc/base/FilterFieldRenderer.js"/>
+      <module name="sap/ui/mdc/base/FilterOperatorConfig.js"/>
+      <module name="sap/ui/mdc/base/ListFieldHelp.js"/>
+      <module name="sap/ui/mdc/base/ODataSuggestProvider.js"/>
+      <module name="sap/ui/mdc/base/OperatorSuggestProvider.js"/>
+      <module name="sap/ui/mdc/base/TableFieldHelp.js"/>
+      <module name="sap/ui/mdc/base/ValueHelpPanel.control.xml"/>
+      <module name="sap/ui/mdc/base/ValueHelpPanel.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/Factory.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/FakeFlpConnector.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/Item.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/Panel.control.xml"/>
+      <module name="sap/ui/mdc/base/linkinfo/Panel.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/Util.js"/>
+      <module name="sap/ui/mdc/base/type/Boolean.js"/>
+      <module name="sap/ui/mdc/base/type/DateRange.js"/>
+      <module name="sap/ui/mdc/base/type/String.js"/>
+      <module name="sap/ui/mdc/experimental/Action.js"/>
+      <module name="sap/ui/mdc/experimental/NamedBindingModel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nColumnItem.js"/>
+      <module name="sap/ui/mdc/experimental/P13nColumnPanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nColumnPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nFilterItem.js"/>
+      <module name="sap/ui/mdc/experimental/P13nFilterPanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nFilterPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nInternalModel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nItem.js"/>
+      <module name="sap/ui/mdc/experimental/P13nPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nPanelFormatter.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSelectionItem.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSelectionPanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nSelectionPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortItem.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortModel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortPanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nSortPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortQBGridPanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nSortQBGridPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortQBPanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nSortQBPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortSimplePanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nSortSimplePanel.js"/>
+      <module name="sap/ui/mdc/experimental/provider/BaseControlProvider.js"/>
+      <module name="sap/ui/mdc/experimental/provider/ProviderHook.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/AdapterFactory.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/BaseAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/CollectionAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/ColumnWrapper.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/FieldAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/ObjectAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/Annotations.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/_ODataAdapterUtils.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataBaseAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataColumnWrapper.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataFieldAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataObjectAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v4/ODataBaseAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v4/ODataFieldAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v4/ODataObjectAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/AbstractKnowlegdeBase.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/ControlRegistry.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/DefaultKnowledgeBase.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/DefaultProvider.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/FlpActionHandler.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/Utils.js"/>
+      <module name="sap/ui/mdc/internal/common/DraftInfoPopover.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/common/Helper.js"/>
+      <module name="sap/ui/mdc/internal/field/ContactDetails.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/field/DataField.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/field/DataFieldForAction.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/field/DataFieldForAnnotation.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/field/Field.control.xml"/>
+      <module name="sap/ui/mdc/internal/field/Field.controller.js"/>
+      <module name="sap/ui/mdc/internal/field/Field.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/filterbar/FilterBar.control.xml"/>
+      <module name="sap/ui/mdc/internal/filterbar/FilterBar.flexibility.js"/>
+      <module name="sap/ui/mdc/internal/filterfield/FilterField.control.xml"/>
+      <module name="sap/ui/mdc/internal/filterfield/SuggestionList.view.xml"/>
+      <module name="sap/ui/mdc/internal/table/Table.control.xml"/>
+      <module name="sap/ui/mdc/internal/table/Table.controller.js"/>
+      <module name="sap/ui/mdc/internal/table/Table.flexibility.js"/>
+      <module name="sap/ui/mdc/internal/table/TableToolbar.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/gridtable/AddGridTableColumnChange.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/gridtable/GridTable.controller.js"/>
+      <module name="sap/ui/mdc/internal/table/gridtable/GridTable.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/gridtable/GridTableColumn.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/p13nsettings/P13nSettings.controller.js"/>
+      <module name="sap/ui/mdc/internal/table/p13nsettings/P13nSettings.view.xml"/>
+      <module name="sap/ui/mdc/internal/table/responsivetable/AddColumnChange.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/responsivetable/ResponsiveTable.controller.js"/>
+      <module name="sap/ui/mdc/internal/table/responsivetable/ResponsiveTable.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/responsivetable/ResponsiveTableColumn.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/viewsettings/ViewSettings.controller.js"/>
+      <module name="sap/ui/mdc/internal/table/viewsettings/ViewSettings.view.xml"/>
+      <module name="sap/ui/mdc/library.js"/>
+      <module name="sap/ui/mdc/manifest.json"/>
+    </includes>
+  </module>
+  <module name="sap/ui/mdc/library-preload.json" size="0" dynamicDependencies="true">
+    <requires>
+      <module name="jquery.sap.global.js"/>
+      <module name="sap/m/Bar.js"/>
+      <module name="sap/m/Button.js"/>
+      <module name="sap/m/Column.js"/>
+      <module name="sap/m/ColumnListItem.js"/>
+      <module name="sap/m/ComboBox.js"/>
+      <module name="sap/m/Dialog.js"/>
+      <module name="sap/m/DisplayListItem.js" conditional="true"/>
+      <module name="sap/m/FlexItemData.js"/>
+      <module name="sap/m/HBox.js"/>
+      <module name="sap/m/IconTabBar.js"/>
+      <module name="sap/m/IconTabFilter.js"/>
+      <module name="sap/m/Input.js" conditional="true"/>
+      <module name="sap/m/Label.js"/>
+      <module name="sap/m/Link.js"/>
+      <module name="sap/m/List.js" conditional="true"/>
+      <module name="sap/m/ListMode.js"/>
+      <module name="sap/m/MessageStrip.js" conditional="true"/>
+      <module name="sap/m/MessageToast.js"/>
+      <module name="sap/m/MultiInput.js"/>
+      <module name="sap/m/ObjectIdentifier.js" conditional="true"/>
+      <module name="sap/m/ObjectMarker.js" conditional="true"/>
+      <module name="sap/m/ObjectNumber.js" conditional="true"/>
+      <module name="sap/m/ObjectStatus.js" conditional="true"/>
+      <module name="sap/m/OverflowToolbar.js"/>
+      <module name="sap/m/OverflowToolbarButton.js"/>
+      <module name="sap/m/OverflowToolbarLayoutData.js"/>
+      <module name="sap/m/P13nDialog.js"/>
+      <module name="sap/m/P13nGroupItem.js" conditional="true"/>
+      <module name="sap/m/P13nGroupPanel.js" conditional="true"/>
+      <module name="sap/m/P13nItem.js" conditional="true"/>
+      <module name="sap/m/P13nSortItem.js" conditional="true"/>
+      <module name="sap/m/P13nSortPanel.js" conditional="true"/>
+      <module name="sap/m/Popover.js"/>
+      <module name="sap/m/ProgressIndicator.js" conditional="true"/>
+      <module name="sap/m/QuickView.js"/>
+      <module name="sap/m/QuickViewGroup.js"/>
+      <module name="sap/m/QuickViewGroupElement.js"/>
+      <module name="sap/m/QuickViewPage.js"/>
+      <module name="sap/m/RatingIndicator.js" conditional="true"/>
+      <module name="sap/m/ResponsivePopover.js"/>
+      <module name="sap/m/ScrollContainer.js"/>
+      <module name="sap/m/SearchField.js"/>
+      <module name="sap/m/Select.js"/>
+      <module name="sap/m/Table.js"/>
+      <module name="sap/m/Text.js"/>
+      <module name="sap/m/TextArea.js" conditional="true"/>
+      <module name="sap/m/Title.js"/>
+      <module name="sap/m/ToggleButton.js"/>
+      <module name="sap/m/Token.js"/>
+      <module name="sap/m/Tokenizer.js"/>
+      <module name="sap/m/Toolbar.js"/>
+      <module name="sap/m/ToolbarSpacer.js"/>
+      <module name="sap/m/VBox.js"/>
+      <module name="sap/m/ViewSettingsDialog.js"/>
+      <module name="sap/m/ViewSettingsItem.js" conditional="true"/>
+      <module name="sap/m/library-preload.json"/>
+      <module name="sap/m/library.js"/>
+      <module name="sap/ui/Device.js"/>
+      <module name="sap/ui/base/BindingParser.js"/>
+      <module name="sap/ui/base/ManagedObject.js"/>
+      <module name="sap/ui/base/ManagedObjectObserver.js"/>
+      <module name="sap/ui/base/Object.js"/>
+      <module name="sap/ui/comp/personalization/Util.js"/>
+      <module name="sap/ui/core/AggregationProxy.js"/>
+      <module name="sap/ui/core/Control.js"/>
+      <module name="sap/ui/core/CustomData.js"/>
+      <module name="sap/ui/core/Element.js"/>
+      <module name="sap/ui/core/Fragment.js"/>
+      <module name="sap/ui/core/IconPool.js"/>
+      <module name="sap/ui/core/InvisibleText.js"/>
+      <module name="sap/ui/core/Item.js"/>
+      <module name="sap/ui/core/ListItem.js"/>
+      <module name="sap/ui/core/Renderer.js"/>
+      <module name="sap/ui/core/ValueState.js"/>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/core/XMLTemplateProcessor.js"/>
+      <module name="sap/ui/core/library-preload.json"/>
+      <module name="sap/ui/core/mvc/Controller.js"/>
+      <module name="sap/ui/core/mvc/XMLView.js"/>
+      <module name="sap/ui/core/util/XMLPreprocessor.js"/>
+      <module name="sap/ui/fl/Utils.js"/>
+      <module name="sap/ui/fl/variants/VariantManagement.js"/>
+      <module name="sap/ui/layout/AlignedFlowLayout.js"/>
+      <module name="sap/ui/layout/FixFlex.js"/>
+      <module name="sap/ui/layout/Grid.js"/>
+      <module name="sap/ui/layout/GridData.js"/>
+      <module name="sap/ui/layout/Splitter.js"/>
+      <module name="sap/ui/layout/SplitterLayoutData.js"/>
+      <module name="sap/ui/layout/VerticalLayout.js"/>
+      <module name="sap/ui/model/BindingMode.js"/>
+      <module name="sap/ui/model/ChangeReason.js"/>
+      <module name="sap/ui/model/CompositeType.js"/>
+      <module name="sap/ui/model/Filter.js"/>
+      <module name="sap/ui/model/FilterOperator.js"/>
+      <module name="sap/ui/model/FormatException.js"/>
+      <module name="sap/ui/model/MetaModel.js"/>
+      <module name="sap/ui/model/ParseException.js"/>
+      <module name="sap/ui/model/Sorter.js"/>
+      <module name="sap/ui/model/base/ManagedObjectModel.js"/>
+      <module name="sap/ui/model/json/JSONModel.js"/>
+      <module name="sap/ui/model/odata/type/Boolean.js" conditional="true"/>
+      <module name="sap/ui/model/odata/v4/ODataModel.js"/>
+      <module name="sap/ui/model/resource/ResourceModel.js"/>
+      <module name="sap/ui/model/type/Boolean.js"/>
+      <module name="sap/ui/model/type/String.js"/>
+      <module name="sap/ui/unified/Currency.js" conditional="true"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+    <includes>
+      <module name="sap/ui/mdc/Field.js"/>
+      <module name="sap/ui/mdc/FilterBar.js"/>
+      <module name="sap/ui/mdc/FilterField.js"/>
+      <module name="sap/ui/mdc/FlpActionHandler.js"/>
+      <module name="sap/ui/mdc/ResourceModel.js"/>
+      <module name="sap/ui/mdc/Table.js"/>
+      <module name="sap/ui/mdc/ValueHelpDialog.js"/>
+      <module name="sap/ui/mdc/ValueHelpTemplate.view.xml"/>
+      <module name="sap/ui/mdc/XMLComposite.js"/>
+      <module name="sap/ui/mdc/base/ConditionModel.js"/>
+      <module name="sap/ui/mdc/base/CustomFieldHelp.js"/>
+      <module name="sap/ui/mdc/base/CustomFieldInfo.js"/>
+      <module name="sap/ui/mdc/base/DefineConditionPanel.control.xml"/>
+      <module name="sap/ui/mdc/base/DefineConditionPanel.js"/>
+      <module name="sap/ui/mdc/base/Field.js"/>
+      <module name="sap/ui/mdc/base/FieldHelpBase.js"/>
+      <module name="sap/ui/mdc/base/FieldInfoBase.js"/>
+      <module name="sap/ui/mdc/base/FieldRenderer.js"/>
+      <module name="sap/ui/mdc/base/FilterField.js"/>
+      <module name="sap/ui/mdc/base/FilterFieldRenderer.js"/>
+      <module name="sap/ui/mdc/base/FilterOperatorConfig.js"/>
+      <module name="sap/ui/mdc/base/ListFieldHelp.js"/>
+      <module name="sap/ui/mdc/base/ODataSuggestProvider.js"/>
+      <module name="sap/ui/mdc/base/OperatorSuggestProvider.js"/>
+      <module name="sap/ui/mdc/base/TableFieldHelp.js"/>
+      <module name="sap/ui/mdc/base/ValueHelpPanel.control.xml"/>
+      <module name="sap/ui/mdc/base/ValueHelpPanel.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/Factory.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/FakeFlpConnector.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/Item.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/Panel.control.xml"/>
+      <module name="sap/ui/mdc/base/linkinfo/Panel.js"/>
+      <module name="sap/ui/mdc/base/linkinfo/Util.js"/>
+      <module name="sap/ui/mdc/base/type/Boolean.js"/>
+      <module name="sap/ui/mdc/base/type/DateRange.js"/>
+      <module name="sap/ui/mdc/base/type/String.js"/>
+      <module name="sap/ui/mdc/experimental/Action.js"/>
+      <module name="sap/ui/mdc/experimental/NamedBindingModel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nColumnItem.js"/>
+      <module name="sap/ui/mdc/experimental/P13nColumnPanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nColumnPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nFilterItem.js"/>
+      <module name="sap/ui/mdc/experimental/P13nFilterPanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nFilterPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nInternalModel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nItem.js"/>
+      <module name="sap/ui/mdc/experimental/P13nPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nPanelFormatter.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSelectionItem.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSelectionPanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nSelectionPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortItem.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortModel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortPanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nSortPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortQBGridPanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nSortQBGridPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortQBPanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nSortQBPanel.js"/>
+      <module name="sap/ui/mdc/experimental/P13nSortSimplePanel.control.xml"/>
+      <module name="sap/ui/mdc/experimental/P13nSortSimplePanel.js"/>
+      <module name="sap/ui/mdc/experimental/provider/BaseControlProvider.js"/>
+      <module name="sap/ui/mdc/experimental/provider/ProviderHook.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/AdapterFactory.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/BaseAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/CollectionAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/ColumnWrapper.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/FieldAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/base/ObjectAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/Annotations.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/_ODataAdapterUtils.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataBaseAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataColumnWrapper.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataFieldAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v2/ODataObjectAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v4/ODataBaseAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v4/ODataFieldAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/adapter/odata/v4/ODataObjectAdapter.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/AbstractKnowlegdeBase.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/ControlRegistry.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/DefaultKnowledgeBase.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/DefaultProvider.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/FlpActionHandler.js"/>
+      <module name="sap/ui/mdc/experimental/provider/control/Utils.js"/>
+      <module name="sap/ui/mdc/internal/common/DraftInfoPopover.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/common/Helper.js"/>
+      <module name="sap/ui/mdc/internal/field/ContactDetails.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/field/DataField.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/field/DataFieldForAction.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/field/DataFieldForAnnotation.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/field/Field.control.xml"/>
+      <module name="sap/ui/mdc/internal/field/Field.controller.js"/>
+      <module name="sap/ui/mdc/internal/field/Field.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/filterbar/FilterBar.control.xml"/>
+      <module name="sap/ui/mdc/internal/filterbar/FilterBar.flexibility.js"/>
+      <module name="sap/ui/mdc/internal/filterfield/FilterField.control.xml"/>
+      <module name="sap/ui/mdc/internal/filterfield/SuggestionList.view.xml"/>
+      <module name="sap/ui/mdc/internal/table/Table.control.xml"/>
+      <module name="sap/ui/mdc/internal/table/Table.controller.js"/>
+      <module name="sap/ui/mdc/internal/table/Table.flexibility.js"/>
+      <module name="sap/ui/mdc/internal/table/TableToolbar.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/gridtable/AddGridTableColumnChange.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/gridtable/GridTable.controller.js"/>
+      <module name="sap/ui/mdc/internal/table/gridtable/GridTable.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/gridtable/GridTableColumn.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/p13nsettings/P13nSettings.controller.js"/>
+      <module name="sap/ui/mdc/internal/table/p13nsettings/P13nSettings.view.xml"/>
+      <module name="sap/ui/mdc/internal/table/responsivetable/AddColumnChange.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/responsivetable/ResponsiveTable.controller.js"/>
+      <module name="sap/ui/mdc/internal/table/responsivetable/ResponsiveTable.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/responsivetable/ResponsiveTableColumn.fragment.xml"/>
+      <module name="sap/ui/mdc/internal/table/viewsettings/ViewSettings.controller.js"/>
+      <module name="sap/ui/mdc/internal/table/viewsettings/ViewSettings.view.xml"/>
+      <module name="sap/ui/mdc/library.js"/>
+      <module name="sap/ui/mdc/manifest.json"/>
+    </includes>
+  </module>
+  <module name="sap/ui/mdc/library.js" size="4430" compressedSize="1848">
+    <description>Initialization Code and shared classes of library sap.ui.mdc.</description>
+    <requires>
+      <module name="sap/ui/core/XMLComposite.js"/>
+      <module name="sap/ui/core/util/XMLPreprocessor.js"/>
+      <module name="sap/ui/fl/variants/VariantManagement.js"/>
+      <module name="sap/ui/mdc/experimental/provider/ProviderHook.js"/>
+      <module name="ui5loader-autoconfig.js"/>
+    </requires>
+  </module>
+  <module name="sap/ui/mdc/manifest.json" size="1325">
+  </module>
+  <module name="sap/ui/mdc/messagebundle.properties" size="5693">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_ar.properties" size="9079">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_bg.properties" size="9839">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_ca.properties" size="5922">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_cs.properties" size="6138">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_da.properties" size="5801">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_de.properties" size="5862">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_el.properties" size="10152">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_en.properties" size="5633">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_en_US_sappsd.properties" size="11830">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_en_US_saptrc.properties" size="6987">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_es.properties" size="5941">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_et.properties" size="5910">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_fi.properties" size="6096">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_fr.properties" size="6143">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_hi.properties" size="9774">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_hr.properties" size="5858">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_hu.properties" size="6418">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_it.properties" size="5803">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_iw.properties" size="8444">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_ja.properties" size="6816">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_kk.properties" size="9988">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_ko.properties" size="6802">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_lt.properties" size="6143">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_lv.properties" size="6250">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_ms.properties" size="5796">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_nl.properties" size="5763">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_no.properties" size="5749">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_pl.properties" size="6066">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_pt.properties" size="5886">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_ro.properties" size="6017">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_ru.properties" size="10000">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_sh.properties" size="5875">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_sk.properties" size="6185">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_sl.properties" size="5764">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_sv.properties" size="5924">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_th.properties" size="9508">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_tr.properties" size="6428">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_uk.properties" size="10017">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_vi.properties" size="7280">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_zh_CN.properties" size="6368">
+  </module>
+  <module name="sap/ui/mdc/messagebundle_zh_TW.properties" size="6332">
+  </module>
+</library>

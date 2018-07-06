@@ -1,0 +1,7 @@
+/*!
+ * SAP UI development toolkit for HTML5 (SAPUI5)
+
+		(c) Copyright 2009-2018 SAP SE. All rights reserved
+	
+ */
+sap.ui.define(['sap/m/Dialog','sap/m/DialogType','sap/m/Button','sap/m/ProgressIndicator','sap/m/Text','sap/m/MessageBox'],function(D,a,B,P,T,M){'use strict';var r=sap.ui.getCore().getLibraryResourceBundle("sap.ui.export");var p;function c(){var d;var e=new B({text:r.getText("CANCEL_BUTTON"),press:function(){if(d&&d.oncancel){d.oncancel();d.finish();}}});var f=new sap.m.ProgressIndicator({showValue:false,height:"0.75rem"});f.addStyleClass("sapUiMediumMarginTop");d=new D({title:r.getText("PROGRESS_TITLE"),type:a.Message,contentWidth:"500px",content:[new T({text:r.getText("PROGRESS_FETCHING_MSG")}),f],endButton:e});d.updateStatus=function(n){f.setPercentValue(n);};d.finish=function(){p.close();f.setPercentValue(0);};return d;}function g(){p=p||c();return p;}function s(m){return new Promise(function(R,f){var w=r.getText("SIZE_WARNING_MSG",[m.rows,m.columns]);var C=false;var d=new D({title:r.getText('PROGRESS_TITLE'),type:a.Message,state:sap.ui.core.ValueState.Warning,content:new T({text:w}),beginButton:new B({text:r.getText("CANCEL_BUTTON"),press:function(){d.close();}}),endButton:new B({text:r.getText("EXPORT_BUTTON"),press:function(){C=true;d.close();}}),afterClose:function(){d.destroy();C?R():f();}});d.open();});}function b(m){M.error(r.getText("PROGRESS_ERROR_MSG")+"\n"+m,{title:r.getText("PROGRESS_ERROR_TITLE")});}return{getProgressDialog:g,showErrorMessage:b,showWarningDialog:s};},true);

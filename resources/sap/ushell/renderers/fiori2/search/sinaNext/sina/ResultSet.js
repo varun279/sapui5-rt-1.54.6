@@ -1,0 +1,1 @@
+sinaDefine(['../core/core','./SinaObject'],function(c,S){return S.derive({_meta:{properties:{title:{required:true},items:{required:false,default:function(){return[];}},query:{required:true}}},toString:function(){var r=[];for(var i=0;i<this.items.length;++i){var a=this.items[i];r.push(a.toString());}return r.join('\n');}});});

@@ -1,0 +1,11 @@
+<core:FragmentDefinition
+		xmlns:mc="sap.suite.ui.microchart"
+		xmlns:core="sap.ui.core">
+
+	<mc:BulletMicroChart size="S" scale="M" targetValue="{bulletMicroChart>MeasureAttributes/0/DataPoint/$AnnotationPath/TargetValue@@.MODEL.value}"
+						 forecastValue="{bulletMicroChart>MeasureAttributes/0/DataPoint/$AnnotationPath/ForecastValue@@.MODEL.value}" class="sapUiSmallMargin">
+		<mc:actual>
+			<mc:BulletMicroChartData value="{bulletMicroChart>MeasureAttributes/0/Measure@@.MODEL.value}"/>
+		</mc:actual>
+	</mc:BulletMicroChart>
+</core:FragmentDefinition>

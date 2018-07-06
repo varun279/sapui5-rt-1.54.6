@@ -1,0 +1,14 @@
+<core:FragmentDefinition
+		xmlns="sap.m"
+		xmlns:mc="sap.suite.ui.microchart"
+		xmlns:core="sap.ui.core">
+	<mc:DeltaMicroChart size="M" press="press" 
+					value1="{deltaMicroChart>MeasureAttributes/0/Measure@@.MODEL.value}" 
+					value2="{deltaMicroChart>MeasureAttributes/1/Measure@@.MODEL.value}" 
+					displayValue1="{deltaMicroChart>MeasureAttributes/0/Measure@@.MODEL.value}" 
+					displayValue2="{deltaMicroChart>MeasureAttributes/1/Measure@@.MODEL.value}" 
+					title1="{deltaMicroChart>MeasureAttributes/0/Label@@.MODEL.value}" 
+					title2="{deltaMicroChart>MeasureAttributes/1/Label@@.MODEL.value}" 
+					color="Good" 
+					class="sapUiSmallMargin"/>
+</core:FragmentDefinition>

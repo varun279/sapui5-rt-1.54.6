@@ -1,0 +1,4 @@
+/*!
+ * Copyright (c) 2009-2014 SAP SE, All Rights Reserved
+ */
+sap.ui.define(['jquery.sap.global','sap/ui/fl/changeHandler/JsControlTreeModifier',"sap/ovp/cards/CommonUtils","sap/ovp/cards/SettingsUtils","sap/m/Dialog","sap/m/Button"],function(q,J,C,S,D,B){"use strict";var a=C.getApp();var r=a&&a._getLibraryResourceBundle();r=r||sap.ui.getCore().getLibraryResourceBundle("sap.ovp");return{name:{singular:r.getText("Card"),plural:r.getText("Cards")},actions:{remove:{changeType:"hideCardContainer",changeOnRelevantContainer:true},reveal:{changeType:"unhideCardContainer",changeOnRelevantContainer:true},settings:function(){return{"EditCard":{name:r.getText("OVP_KEYUSER_MENU_EDIT_CARD"),isEnabled:function(s){return false;},changeOnRelevantContainer:true,handler:S.fnEditCardHandler},"CloneCard":{name:r.getText("OVP_KEYUSER_MENU_CLONE_CARD"),isEnabled:function(s){return false;},handler:S.fnCloneCardHandler}};}}};},true);

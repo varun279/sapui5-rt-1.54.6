@@ -1,0 +1,10 @@
+<core:FragmentDefinition
+		xmlns="sap.m"
+		xmlns:mc="sap.suite.ui.microchart"
+		xmlns:core="sap.ui.core">
+	<mc:HarveyBallMicroChart size="M" total="{harveyBallMicroChart>MeasureAttributes/0/DataPoint/$AnnotationPath/TargetValue@@.MODEL.value}" totalScale="M">
+		<mc:items>
+			<mc:HarveyBallMicroChartItem fraction="{harveyBallMicroChart>MeasureAttributes/0/Measure@@.MODEL.value}" color="Good" fractionScale="M" />
+		</mc:items>
+	</mc:HarveyBallMicroChart>
+</core:FragmentDefinition>

@@ -1,0 +1,25 @@
+<core:FragmentDefinition xmlns:m="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout">
+	<l:VerticalLayout width="100%" class="linkInfoPanel">
+		<m:VBox fitContainer="false" class="linkInfoPanelTitleH1 linkInfoPanelHeader"
+				visible="{=${$this>mainItem/text} ? true:false}">
+			<m:Link text="{$this>mainItem/text}" href="{$this>mainItem/href}" target="{$this>mainItem/target}"
+					enabled="{=${$this>mainItem/href} ? true:false}" visible="{=${$this>mainItem/text} ? true:false}"/>
+			<m:Text text="{$this>mainItem/description}" visible="{=${$this>mainItem/description} ? true:false}"/>
+		</m:VBox>
+
+		<m:VBox id="IDExtraContent" fitContainer="false"/>
+
+		<m:VBox fitContainer="false" class="linkInfoPanelSeparator"
+				visible="{= ${$this>items}.length > 0 &amp;&amp; ${$this>mainItem/text} ? true:false}"/>
+
+		<m:VBox fitContainer="false" items="{path:'$this>/items', templateShareable:false}"
+				class="linkInfoPanelAvailableLinks">
+			<m:Link text="{$this>text}" href="{$this>href}"/>
+		</m:VBox>
+
+		<m:HBox justifyContent="End" class="linkInfoPanelAvailableLinks"
+				visible="{= ${$this>items}.length > 0 &amp;&amp; ${$this>enablePersonalization} ? true:false}">
+			<m:Button type="Transparent" text="{i18n>POPOVER_DEFINE_LINKS}"/>
+		</m:HBox>
+	</l:VerticalLayout>
+</core:FragmentDefinition>

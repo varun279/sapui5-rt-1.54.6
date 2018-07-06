@@ -1,0 +1,19 @@
+<core:FragmentDefinition
+		xmlns="sap.m"
+		xmlns:mc="sap.suite.ui.microchart"
+		xmlns:core="sap.ui.core">
+	<mc:StackedBarMicroChart size="L" press="press" precision="0" class="sapUiSmallMargin">
+		<mc:bars>
+
+			<mc:StackedBarMicroChartBar valueColor="Good"
+										value="{stackedBarMicroChart>MeasureAttributes/0/Measure@@.MODEL.value}"
+										displayValue="{stackedBarMicroChart>MeasureAttributes/0/Measure@@.MODEL.value}"/>
+			<mc:StackedBarMicroChartBar valueColor="Neutral"
+										value="{stackedBarMicroChart>MeasureAttributes/1/Measure@@.MODEL.value}"
+										displayValue="{stackedBarMicroChart>MeasureAttributes/1/Measure@@.MODEL.value}"/>
+			<mc:StackedBarMicroChartBar valueColor="Error"
+										value="{stackedBarMicroChart>MeasureAttributes/2/Measure@@.MODEL.value}"
+										displayValue="{stackedBarMicroChart>MeasureAttributes/2/Measure@@.MODEL.value}"/>
+		</mc:bars>
+	</mc:StackedBarMicroChart>
+</core:FragmentDefinition>

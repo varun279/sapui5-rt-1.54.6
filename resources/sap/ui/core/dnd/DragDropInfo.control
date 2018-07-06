@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<control xmlns="http://www.sap.com/sap.ui.library.xsd">
+    <name>dnd/DragDropInfo</name>
+    <derived/>
+    <author>SAP SE</author>
+    <documentation>Provides the configuration for drag-and-drop operations.</documentation>
+    <since>1.52</since>
+    <baseType>sap.ui.core/dnd/DragDropBase</baseType>
+    <properties>
+        <property name="sourceAggregation" type="sap.ui.core/string">
+            <documentation>The name of the aggregation from which all children can be dragged. If undefined, the control itself can be dragged.</documentation>
+        </property>
+        <property name="targetAggregation" type="sap.ui.core/string">
+            <documentation>The aggregation name in the &lt;code&gt;targetElement&lt;/code&gt; which is the target of this drag and drop action. If undefined, the entire
+&lt;code&gt;targetElement&lt;/code&gt; is the target. This can be handy if the target control does not have any aggregations or if the drop
+position within the target does not matter.</documentation>
+        </property>
+        <property name="dropEffect" type="sap.ui.core/dnd/DropEffect" defaultValue="Move">
+            <documentation>Defines the visual drop effect.</documentation>
+        </property>
+        <property name="dropPosition" type="sap.ui.core/dnd/DropPosition" defaultValue="On">
+            <documentation>Defines the position for the drop action, visualized by a rectangle.</documentation>
+        </property>
+        <property name="dropLayout" type="sap.ui.core/dnd/DropLayout" defaultValue="Vertical">
+            <documentation>Defines the layout of the droppable controls if &lt;code&gt;dropPosition&lt;/code&gt; is set to &lt;code&gt;Between&lt;/code&gt; or &lt;code&gt;OnOrBetween&lt;/code&gt;.</documentation>
+        </property>
+    </properties>
+    <events>
+        <event name="dragStart" allowPreventDefault="true">
+            <documentation>This event is fired when the user starts dragging an element.</documentation>
+        </event>
+        <event name="dragEnter" allowPreventDefault="true">
+            <documentation>This event is fired when a dragged element enters a drop target.</documentation>
+        </event>
+        <event name="drop" allowPreventDefault="false">
+            <documentation>This event is fired when an element is dropped on a valid drop target, as specified by the drag and drop info.</documentation>
+        </event>
+    </events>
+    <associations>
+        <association name="targetElement" type="sap.ui.core/Element" cardinality="0..1">
+            <documentation>The target element for this drag and drop action. If undefined, the control with this drag and drop configuration itself is the target.
+Leaving this empty, but defining source and target aggregation, allows you to reorder the children within a control, for example.</documentation>
+        </association>
+    </associations>
+</control>
